@@ -1,4 +1,3 @@
-import React from "react";
 import SpreadsheetTable from "./components/SpreadsheetTable";
 import HeaderBar from "./components/HeaderBar";
 import Toolbar from "./components/Toolbar";
