@@ -62,9 +62,9 @@ const SpreadsheetTable = () => {
   return (
     <table {...getTableProps()} className="min-w-full table-auto border">
       <thead className="bg-gray-50">
-        {headerGroups.map((headerGroup) => (
+        {headerGroups.map((headerGroup: any) => (
           <tr {...headerGroup.getHeaderGroupProps()}>
-            {headerGroup.headers.map((column) => (
+            {headerGroup.headers.map((column: any) => (
               <th
                 {...column.getHeaderProps()}
                 className="text-left px-4 py-2 border-b text-sm text-gray-600"
@@ -76,11 +76,11 @@ const SpreadsheetTable = () => {
         ))}
       </thead>
       <tbody {...getTableBodyProps()}>
-        {rows.map((row) => {
+        {rows.map((row: any) => {
           prepareRow(row);
           return (
-            <tr {...row.getRowProps()} className="hover:bg-gray-50">
-              {row.cells.map((cell) => (
+            <tr {...row.getRowProps()}>
+              {row.cells.map((cell: any) => (
                 <td
                   {...cell.getCellProps()}
                   className="px-4 py-2 border-b text-sm"

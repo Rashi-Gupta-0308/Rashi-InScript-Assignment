@@ -1,5 +1,3 @@
-import React from "react";
-
 const Toolbar = () => {
   const logAction = (action: string) => console.log(`${action} clicked`);
 
