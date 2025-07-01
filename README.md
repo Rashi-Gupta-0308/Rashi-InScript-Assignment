@@ -5,7 +5,8 @@ This is a static, front-end-only spreadsheet prototype built using **React**, **
 
 ## 🔗 Live Demo
 
-👉 [View Live Project on Vercel]([https://your-vercel-url.vercel.app](https://rashi-in-script-assignment-jgto.vercel.app/))  
+👉 [View Live Project on Vercel](https://rashi-in-script-assignment-jgto.vercel.app/)
+
 
 
 ## 💻 Tech Stack
