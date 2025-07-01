@@ -25,7 +25,6 @@ This is a static, front-end-only spreadsheet prototype built using **React**, **
 - All buttons and tabs are interactive (log to console / update UI)
 - Colored status tags and priority levels
 - Sticky footer-style TabBar aligned to screen bottom
-- Responsive layout using Tailwind CSS
 
 ## 🛠️ How to Run Locally
 
